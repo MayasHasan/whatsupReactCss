@@ -1,0 +1,76 @@
+.sidebar-search {
+    background-color: white;
+    border: 1px solid var(--border-stronger);
+    width: 100%;
+    gap: 10px;
+    height: 49px;
+  
+}
+.sidebar-searchFocused{
+    box-shadow: 0 2px 3px var(--shadow-light);
+}
+
+.sidebar-searchContainer {
+    align-items: center;
+    width: 90%;
+    background-color: var(--search-input-background);
+    border-radius: 8px;
+}
+
+
+.sidebar-searchContainer input {
+    width: 80%;
+    padding: 8px;
+    border: none;
+    background-color: var(--search-input-background);
+}
+
+.sidebar-searchContainer input::placeholder {
+
+
+    height: 20px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+    color: var(--input-placeholder);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    pointer-events: none;
+    transition: opacity .14s linear;
+}
+
+.sidebar-searchContainer input:focus {
+    outline: none;
+}
+
+.sidebar-searchContainer .icon2 {
+    margin-left: 20px;
+ 
+}
+
+
+.arrowIcon {
+    fill: green;
+    height: 30px;
+    width: 30px;
+    animation-name: arrowRotrate;
+    animation-duration: 200ms;
+ 
+}
+
+.searchIcon{
+    animation-name: searchIconRotrate;
+    animation-duration: 200ms;
+}
+
+
+@keyframes arrowRotrate {
+   from {transform: rotate(-75deg);}
+   to {transform: rotate(0)}
+  }
+
+
+  @keyframes searchIconRotrate {
+    from {transform: rotate(75deg);}
+    to {transform: rotate(0)}
+   }

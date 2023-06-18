@@ -1,0 +1,32 @@
+.SidebarDrawerHeader {
+    background-color: var(--panel-background-colored);
+    height: 108px;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 300;
+}
+
+
+.SidebarDrawerHeader-title {
+    align-items: center;
+    height: 59px;
+    padding: 0 23px;
+
+}
+
+.SidebarDrawerHeader-Icon {
+    width: 70px;
+    color: white;
+}
+
+
+.title {
+    flex-grow: 1;
+}
+.title h1  {
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 1px;
+}

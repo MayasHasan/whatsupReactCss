@@ -1,0 +1,115 @@
+.profile-photo {
+    margin: 28px 0;
+}
+
+.profile-circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #707f87;
+    color: white;
+    cursor: pointer;
+    animation-name: profile-circle-animation;
+    animation-duration:0.7s;
+}
+
+
+.profile-circle span {
+    text-align: center;
+    color: rgba(var(--inverse-rgb), .8);
+    line-height: 20px;
+    font-size: 0.8125rem;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+
+
+
+.profile-about,
+.profile-name {
+    padding: 14px 30px 10px 30px;
+    background-color: white;
+    box-shadow: 0 1px 3px var(--shadow-light);
+    margin-bottom: 5px;
+    animation-name: translateY;
+    animation-duration: 1s;
+}
+
+.about,
+.yourName {
+    margin-bottom: 14px;
+     padding-top: 5px;
+}
+
+.about span,
+.yourName span {
+    color: teal;
+    font-size: 0.875rem;
+}
+
+.about-edit,
+.yourName1 {
+    padding-top: 5px;
+    font-size: 0.875rem;
+}
+
+.yourName1 span {
+    color: #3b4a59;
+    font-size: 17px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 440px;
+    overflow: hidden;
+}
+
+
+.profileNote {
+    margin:4px 20px 28px 30px;
+    animation-name: translateY;
+    animation-duration: 1s;
+}
+
+
+.profileNote span {
+    font-size: 0.875rem;
+    line-height: 1.4286;
+    color: #667781;
+}
+
+
+
+
+
+
+@keyframes profile-circle-animation {
+    0% {
+        transform: scale(0, 0);
+    }
+
+    20% {
+        transform: scale(0, 0);
+    }
+
+    100% {
+        transform: scale (0, 0);
+    }
+}
+
+
+@keyframes translateY {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    30% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

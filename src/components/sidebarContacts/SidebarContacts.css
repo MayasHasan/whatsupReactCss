@@ -1,0 +1,80 @@
+.sidebarContacts {
+    width: 100%;
+    height: 100%;
+    justify-content: start;
+    border: 1px solid var(--border-stronger);
+    z-index: 1;
+    overflow-y: auto;
+}
+
+.sidebarContacts-box {
+    margin-top: -1px;
+}
+
+.contactPhoto {
+    padding: 0 15px 0 13px;
+}
+
+
+
+.sidebarContacts-contactName {
+    padding-right: 15px;
+    height: 72px;
+    border-top: 1px solid var(--border-list);
+    flex-grow: 1;
+    width: 350px;
+}
+
+
+
+.contactName>:nth-child(2) {
+    font-size: 12px;
+}
+
+.messageText {
+    margin-top: 2px;
+    position: relative;
+}
+
+.messageText>:nth-child(1) {
+    margin-right: 4px;
+}
+
+
+
+.messageText>:nth-child(2) {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 325px;
+    overflow: hidden;
+    transition: all 100ms ease;
+}
+.lastMsg{
+    font-size: 12px;
+}
+
+.messageText>:last-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+    visibility: hidden;
+    transition: all 100ms ease;
+}
+
+
+.sidebarContacts-box:hover {
+    background-color: var(--background-default-hover);
+    cursor: pointer;
+
+}
+
+.sidebarContacts-box:hover .lastMsg {
+    width: 300px;
+}
+
+
+.sidebarContacts-box:hover .BsChevronDown {
+    visibility: visible;
+    right: 5px;
+
+}

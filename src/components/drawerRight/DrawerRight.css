@@ -1,0 +1,27 @@
+.drawerRight{
+    z-index: 1000;
+    height: 100%;
+    background-color: white;
+    justify-content: flex-start;
+    min-width: 30%;
+}
+
+
+.drawerRight-header{
+    border-left: 1px solid var(--border-stronger);
+    background-color: var(--panel-header-background);
+    padding: 15px 16px;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 40px;
+    min-width: 30%;
+}
+
+.header-text h1{
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.closeIcon{
+    padding-left: 15px;
+}

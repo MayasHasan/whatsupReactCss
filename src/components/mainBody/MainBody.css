@@ -1,0 +1,51 @@
+.MainBody{
+  background-image: url("./../../../public/images/whtatsBackground.PNG");
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+
+.person{
+  margin: 23px 70px;
+}
+
+.message{
+  padding: 12px;
+  border-radius: 7.5px;
+  position: relative;
+  background-color: #ffffff;
+  min-width: 55px;
+  max-width: 500px;
+}
+
+.c{
+  left: -8px;
+  color: #ffffff;
+  position: absolute;
+  top: 0px;
+  width: 12px;
+  border-radius: 0px 0px 0px 30px;
+    height: 14px;
+  background-color: #ffffff;
+
+}
+
+
+.yourMessage{
+  max-width: 500px;
+  padding: 12px;
+  border-radius: 7.5px;
+  position: relative;
+  min-width: 55px;
+  background-color: #d9fdd3;
+}
+
+.y{
+     color: #ffffff;
+     position: absolute;
+     top: 0px;
+     right: -6px;
+     width: 15px;
+     border-radius: 3px 0px 31px 0px;
+     height: 14px;
+     background-color: #d9fdd3 }

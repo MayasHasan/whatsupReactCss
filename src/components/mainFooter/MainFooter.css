@@ -1,0 +1,26 @@
+.mainFooter {
+    border-right: 1px solid var(--border-stronger);
+    background-color: var(--panel-header-background);
+   padding: 9px 16px;
+}
+.mainFooter > * {
+margin: 0 8px;
+} 
+
+
+.mainFooter input {
+
+        padding: 9px 12px;
+        margin: 5px 8px;
+    background-color: var(--compose-input-background);
+    border: 1px solid var(--compose-input-border);
+    border-radius: 8px;
+    outline: none;
+    flex-grow: 1;
+}
+
+
+.mainFooter input::placeholder {
+    font-size: 0.9em;
+
+}
